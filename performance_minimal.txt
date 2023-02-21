@@ -1,0 +1,650 @@
+*********************************** Test 01 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 509            (0.00 % random) (130916 /sec)
+propagations          : 701            (180298 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003888 s
+
+SATISFIABLE
+
+*********************************** Test 02 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 518            (0.00 % random) (130742 /sec)
+propagations          : 695            (175416 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003962 s
+
+SATISFIABLE
+
+*********************************** Test 03 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 517            (0.00 % random) (130194 /sec)
+propagations          : 697            (175523 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003971 s
+
+SATISFIABLE
+
+*********************************** Test 04 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 518            (0.00 % random) (142308 /sec)
+propagations          : 699            (192033 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.00364 s
+
+SATISFIABLE
+
+*********************************** Test 05 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 516            (0.00 % random) (131064 /sec)
+propagations          : 694            (176276 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003937 s
+
+SATISFIABLE
+
+*********************************** Test 06 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 517            (0.00 % random) (144172 /sec)
+propagations          : 696            (194088 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003586 s
+
+SATISFIABLE
+
+*********************************** Test 07 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 520            (0.00 % random) (136914 /sec)
+propagations          : 698            (183781 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003798 s
+
+SATISFIABLE
+
+*********************************** Test 08 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 517            (0.00 % random) (139805 /sec)
+propagations          : 698            (188751 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003698 s
+
+SATISFIABLE
+
+*********************************** Test 09 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (-nan /sec)
+decisions             : 514            (0.00 % random) (inf /sec)
+propagations          : 695            (inf /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0 s
+
+SATISFIABLE
+
+*********************************** Test 10 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (-nan /sec)
+decisions             : 519            (0.00 % random) (inf /sec)
+propagations          : 698            (inf /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0 s
+
+SATISFIABLE
+
+*********************************** Test 11 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (-nan /sec)
+decisions             : 515            (0.00 % random) (inf /sec)
+propagations          : 698            (inf /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0 s
+
+SATISFIABLE
+
+*********************************** Test 12 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 516            (0.00 % random) (132614 /sec)
+propagations          : 697            (179131 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003891 s
+
+SATISFIABLE
+
+*********************************** Test 13 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 519            (0.00 % random) (139554 /sec)
+propagations          : 694            (186609 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003719 s
+
+SATISFIABLE
+
+*********************************** Test 14 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 520            (0.00 % random) (130785 /sec)
+propagations          : 695            (174799 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003976 s
+
+SATISFIABLE
+
+*********************************** Test 15 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 516            (0.00 % random) (139121 /sec)
+propagations          : 697            (187921 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003709 s
+
+SATISFIABLE
+
+*********************************** Test 16 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 516            (0.00 % random) (136761 /sec)
+propagations          : 699            (185264 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003773 s
+
+SATISFIABLE
+
+*********************************** Test 17 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 518            (0.00 % random) (137437 /sec)
+propagations          : 696            (184664 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003769 s
+
+SATISFIABLE
+
+*********************************** Test 18 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 514            (0.00 % random) (139258 /sec)
+propagations          : 694            (188025 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003691 s
+
+SATISFIABLE
+
+*********************************** Test 19 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 515            (0.00 % random) (132938 /sec)
+propagations          : 693            (178885 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003874 s
+
+SATISFIABLE
+
+*********************************** Test 20 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (-nan /sec)
+decisions             : 516            (0.00 % random) (inf /sec)
+propagations          : 695            (inf /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0 s
+
+SATISFIABLE
+
+*********************************** Test 21 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 515            (0.00 % random) (136786 /sec)
+propagations          : 694            (184329 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003765 s
+
+SATISFIABLE
+
+*********************************** Test 22 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 516            (0.00 % random) (136436 /sec)
+propagations          : 697            (184294 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003782 s
+
+SATISFIABLE
+
+*********************************** Test 23 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 514            (0.00 % random) (138135 /sec)
+propagations          : 697            (187315 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003721 s
+
+SATISFIABLE
+
+*********************************** Test 24 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 517            (0.00 % random) (121905 /sec)
+propagations          : 698            (164584 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.004241 s
+
+SATISFIABLE
+
+*********************************** Test 25 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 517            (0.00 % random) (136232 /sec)
+propagations          : 697            (183663 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003795 s
+
+SATISFIABLE
+
+*********************************** Test 26 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (-nan /sec)
+decisions             : 519            (0.00 % random) (inf /sec)
+propagations          : 700            (inf /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0 s
+
+SATISFIABLE
+
+*********************************** Test 27 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 515            (0.00 % random) (133801 /sec)
+propagations          : 700            (181865 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003849 s
+
+SATISFIABLE
+
+*********************************** Test 28 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 516            (0.00 % random) (131767 /sec)
+propagations          : 700            (178754 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003916 s
+
+SATISFIABLE
+
+*********************************** Test 29 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 515            (0.00 % random) (136750 /sec)
+propagations          : 698            (185343 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003766 s
+
+SATISFIABLE
+
+*********************************** Test 30 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 521            (0.00 % random) (134486 /sec)
+propagations          : 701            (180950 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003874 s
+
+SATISFIABLE
+
+*********************************** Test 31 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 519            (0.00 % random) (134282 /sec)
+propagations          : 695            (179819 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003865 s
+
+SATISFIABLE
+
+*********************************** Test 32 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 520            (0.00 % random) (140011 /sec)
+propagations          : 699            (188207 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003714 s
+
+SATISFIABLE
+
+*********************************** Test 33 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 517            (0.00 % random) (126654 /sec)
+propagations          : 696            (170505 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.004082 s
+
+SATISFIABLE
+
+*********************************** Test 34 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 520            (0.00 % random) (140011 /sec)
+propagations          : 699            (188207 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003714 s
+
+SATISFIABLE
+
+*********************************** Test 35 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 521            (0.00 % random) (146061 /sec)
+propagations          : 702            (196804 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003567 s
+
+SATISFIABLE
+
+*********************************** Test 36 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 521            (0.00 % random) (132334 /sec)
+propagations          : 699            (177546 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003937 s
+
+SATISFIABLE
+
+*********************************** Test 37 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 517            (0.00 % random) (123477 /sec)
+propagations          : 695            (165990 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.004187 s
+
+SATISFIABLE
+
+*********************************** Test 38 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 512            (0.00 % random) (123403 /sec)
+propagations          : 697            (167992 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.004149 s
+
+SATISFIABLE
+
+*********************************** Test 39 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 518            (0.00 % random) (424242 /sec)
+propagations          : 696            (570025 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.001221 s
+
+SATISFIABLE
+
+*********************************** Test 40 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (-nan /sec)
+decisions             : 516            (0.00 % random) (inf /sec)
+propagations          : 697            (inf /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0 s
+
+SATISFIABLE
+
+*********************************** Test 41 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 516            (0.00 % random) (136797 /sec)
+propagations          : 694            (183987 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003772 s
+
+SATISFIABLE
+
+*********************************** Test 42 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 515            (0.00 % random) (124066 /sec)
+propagations          : 696            (167670 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.004151 s
+
+SATISFIABLE
+
+*********************************** Test 43 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 519            (0.00 % random) (133316 /sec)
+propagations          : 696            (178782 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003893 s
+
+SATISFIABLE
+
+*********************************** Test 44 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 517            (0.00 % random) (134321 /sec)
+propagations          : 699            (181606 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003849 s
+
+SATISFIABLE
+
+*********************************** Test 45 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 513            (0.00 % random) (123228 /sec)
+propagations          : 696            (167187 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.004163 s
+
+SATISFIABLE
+
+*********************************** Test 46 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 519            (0.00 % random) (136687 /sec)
+propagations          : 698            (183829 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003797 s
+
+SATISFIABLE
+
+*********************************** Test 47 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 517            (0.00 % random) (122164 /sec)
+propagations          : 696            (164461 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.004232 s
+
+SATISFIABLE
+
+*********************************** Test 48 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 522            (0.00 % random) (141043 /sec)
+propagations          : 699            (188868 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003701 s
+
+SATISFIABLE
+
+*********************************** Test 49 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 518            (0.00 % random) (134685 /sec)
+propagations          : 699            (181747 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003846 s
+
+SATISFIABLE
+
+*********************************** Test 50 ***********************************
+|  Number of variables:           999                                         |
+|  Number of clauses:            1053                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 520            (0.00 % random) (133197 /sec)
+propagations          : 697            (178535 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003904 s
+
+SATISFIABLE
+
