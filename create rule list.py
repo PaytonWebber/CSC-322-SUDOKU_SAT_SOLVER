@@ -2,6 +2,9 @@ import sys
 
 class Clause:
     vars = []
+    def __init__(self):
+        self.vars = []
+
     def append(self, var):
         self.vars.append(var)
 
@@ -16,6 +19,8 @@ class Variable:
         self.isNegated = isNo
 
     def __init__(self):
+        self.symbol = []
+        self.isNegated = False
         junk = 0
 
 
@@ -41,7 +46,22 @@ for i in range(1, 10):
             var.symbol = [i, j, k]
             var.isNegated = False
             tempClause.append(var)
+            L = 0
+
+            '''
+            while(L < len(tempClause.vars)):
+                tempVar = tempClause.vars[L]
+                print("symbol: " + str(tempVar.symbol), end = "")
+                L = L + 1
+            print("")
+            '''
+
             allClauses.append(tempClause)
+
+            '''
+            if(j==2 and k ==2):
+                exit()
+            '''
         
 
 #2
@@ -159,27 +179,28 @@ for line in sys.stdin:
                 L = 0
                 while(L < len(tempClause.vars)):
                     tempVar = tempClause.vars[L]
-                    #print("symbol: " + str(tempVar.symbol))
+                    print("symbol: " + str(tempVar.symbol), end = "")
                     if(tempVar.symbol[2]==digVal):
-                        print("found the digit")
+                        #print("found the digit")
                         if(not var.isNegated):
-                            print("gonna pop i")
+                            #print("gonna pop i")
                             allClauses.pop(i)
                             i = i - 1
                         else:
-                            print("gonna pop L")
+                            #print("gonna pop L")
                             allClauses[i].pop(L)
                             L = L - 1
 
                     L = L + 1
                 i = i + 1
+                print("")
             '''
 
             #create a clause with variable to say that the clause containing only the one value must be true
             trueClause = Clause()
             trueVar = Variable()
 
-            trueVar.symbol = [1+charCount/9, ((charCount - 1)%9)+1, digVal]
+            trueVar.symbol = [1+((charCount-1)//9), ((charCount - 1)%9)+1, digVal]
             trueVar.isNegated = False
 
             trueClause.append(trueVar)
@@ -204,5 +225,7 @@ for i in range(0, len(allClauses)):
         tempVar = tempClause.vars[j]
         if(tempVar.isNegated):
             tempStart = "-"
+        #print(tempStart + str(tempVar.symbol[0]) + " " + str(tempVar.symbol[1]) + " " + str(tempVar.symbol[2]) + " ", end = " ")
         print(tempStart + str(tempVar.symbol[0]) + str(tempVar.symbol[1]) + str(tempVar.symbol[2]) + " ", end = "")
+
     print("")
