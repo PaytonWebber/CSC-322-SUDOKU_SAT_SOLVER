@@ -13,6 +13,10 @@ class Variable:
     def __init__(self, sym, isNo):
         self.symbol = sym
         self.isNegated = isNo
+    def __init__(self):
+        self.symbol = []
+        self.isNegated = False
+        junk = 0
 
 # This class represents a clause in the DIMACS file.
 class Clause:
@@ -233,7 +237,9 @@ while line:
             # Create a new clause
             tempClause = Clause()
             # Create a variable representing the cell having the value
-            var = Variable([int(i / 9) + 1, i % 9 + 1, int(line[i])], False)
+            var = Variable()
+            var.symbol = [int(i / 9) + 1, i % 9 + 1, int(line[i])]
+            var.isNegated = False
             # Add the variable to the clause
             tempClause.append(var)
             # Add the clause to the list of all clauses
