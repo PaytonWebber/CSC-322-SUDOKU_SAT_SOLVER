@@ -44,6 +44,8 @@ def printClauses(clauses):
 # Create an empty list of clauses
 allClauses = []
 
+
+'''
 # Create a list of clauses that represent the rule that each cell must have a value
 for i in range(1, 10):
     for j in range(1, 10):
@@ -123,6 +125,96 @@ for i in range(1, 10, 3):
                     tempClause.append(var)
             # Add the clause to the list of all clauses
             allClauses.append(tempClause)
+'''
+
+##Now I will go generate the clauses
+#1
+for i in range(1, 10):
+    for j in range(1, 10):
+        tempClause = Clause()
+        for k in range(1, 10):
+            var = Variable()
+            var.symbol = [i, j, k]
+            var.isNegated = False
+            tempClause.append(var)
+            L = 0
+            allClauses.append(tempClause)
+
+        
+
+#2
+for i in range(1, 10):
+    for k in range(1, 10):
+            for j in range(1, 9):
+                for L in range(j+1, 10):
+                    tempClause = Clause()
+                    var = Variable()
+                    var.symbol = [i, j, k]
+                    var.isNegated = True
+                    tempClause.append(var)
+                    
+                    var2 = Variable()
+                    var2.symbol = [i, L, k]
+                    var2.isNegated = True
+                    tempClause.append(var2)
+                    allClauses.append(tempClause)
+
+
+#3
+for j in range(1, 10):
+    for k in range(1, 10):
+        for i in range(1, 8):
+            for L in range(i+1, 10):
+                tempClause = Clause()
+                var = Variable()
+                var.symbol = [i, j, k]
+                var.isNegated = True
+                tempClause.append(var)
+                
+                var2 = Variable()
+                var2.symbol = [L, j, k]
+                var2.isNegated = True
+                tempClause.append(var2)
+                allClauses.append(tempClause)
+            
+#4
+for k in range(1, 10):
+    for a in range(0, 3):
+        for b in range(0, 3):
+            for u in range(1,4):
+                for v in range(1, 3):
+                    for w in range(v+1, 4):
+                        tempClause = Clause()
+                        var = Variable()
+                        var.symbol = [3*a + u, 3*b + v, k]
+                        var.isNegated = True
+                        tempClause.append(var)
+                        
+                        var2 = Variable()
+                        var2.symbol = [3*a + u, 3*b + w, k]
+                        var2.isNegated = True
+                        tempClause.append(var2)
+                        allClauses.append(tempClause)
+
+#5
+for k in range(1, 10):
+    for a in range(0, 3):
+        for b in range(0, 3):
+            for u in range(1,3):
+                for v in range(1, 4):
+                    for w in range(v+1, 4):
+                        for t in range(1, 4):
+                            tempClause = Clause()
+                            var = Variable()
+                            var.symbol = [3*a + u, 3*b + v, k]
+                            var.isNegated = True
+                            tempClause.append(var)
+                            
+                            var2 = Variable()
+                            var2.symbol = [3*a + w, 3*b + t, k]
+                            var2.isNegated = True
+                            tempClause.append(var2)
+                            allClauses.append(tempClause)
 
 # Read in the sudoku puzzle from the input file.
 # The puzzle is in the format of a 9x9 grid of integers, or one line.
