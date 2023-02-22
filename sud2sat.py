@@ -30,6 +30,17 @@ class Clause:
     def pop(self, i):
         return self.vars.pop(i)
     
+# convert from our current encoding to the encoding to have the min possible num variables
+def returnMinEncoding(i, j, k):
+    decVal =(81 * (i-1)) + (9*(j-1)) + (k-1) + 1
+    newK = decVal % 10
+    devVal = decVal - newK
+    newJ = (decVal % 100)//10
+    decVal = devVal - (newJ*10)
+    newI = decVal//100
+    minEnc = [newI, newJ, newK]
+    return minEnc
+    
 # This function takes in a list of clauses and prints them to STDOUT in DIMACS format.
 def printClauses(clauses):
     # Print the number of clauses
@@ -144,6 +155,8 @@ for i in range(1, 10):
             L = 0
         allClauses.append(tempClause)
 
+        
+
 #2
 for i in range(1, 10):
     for k in range(1, 10):
@@ -218,6 +231,7 @@ for k in range(1, 10):
                             tempClause.append(var2)
                             allClauses.append(tempClause)
 
+
 # Read in the sudoku puzzle from the input file.
 # The puzzle is in the format of a 9x9 grid of integers, or one line.
 # A 0, ., *, or ? represents an empty cell.
@@ -244,6 +258,19 @@ while line:
             allClauses.append(tempClause)
     # Read in the next line of the input file
     line = sys.stdin.readline()
+
+
+# now change all the encodings to be how the solver probably wants them
+# Print the number of clauses
+print("p cnf 999 " + str(len(allClauses)))
+# Print each clause
+for clause in allClauses:
+    for var in clause.vars:
+        # Print the variable
+        print(str(var.symbol[0]) + str(var.symbol[1]) + str(var.symbol[2]), end = " ")
+        minEnc = returnMinEncoding(var.symbol[0], var.symbol[1], var.symbol[2])
+        var.symbol = minEnc
+
 
 # Print the list of clauses to STDOUT in DIMACS format
 printClauses(allClauses)
