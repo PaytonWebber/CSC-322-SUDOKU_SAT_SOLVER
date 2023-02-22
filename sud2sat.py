@@ -142,9 +142,7 @@ for i in range(1, 10):
             var.isNegated = False
             tempClause.append(var)
             L = 0
-            allClauses.append(tempClause)
-
-        
+        allClauses.append(tempClause)
 
 #2
 for i in range(1, 10):
@@ -180,7 +178,7 @@ for j in range(1, 10):
                 var2.isNegated = True
                 tempClause.append(var2)
                 allClauses.append(tempClause)
-            
+          
 #4
 for k in range(1, 10):
     for a in range(0, 3):
