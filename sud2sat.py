@@ -40,11 +40,11 @@ def returnMinEncoding(i, j, k):
     newI = decVal//100
     minEnc = [newI, newJ, newK]
     return minEnc
-    
+
 # This function takes in a list of clauses and prints them to STDOUT in DIMACS format.
 def printClauses(clauses):
     # Print the number of clauses
-    print("p cnf 999 " + str(len(clauses)))
+    print("p cnf 729 " + str(len(clauses)))
     # Print each clause
     for clause in clauses:
         for var in clause.vars:
@@ -174,11 +174,10 @@ for i in range(1, 10):
                     tempClause.append(var2)
                     allClauses.append(tempClause)
 
-
 #3
 for j in range(1, 10):
     for k in range(1, 10):
-        for i in range(1, 8):
+        for i in range(1, 9):
             for L in range(i+1, 10):
                 tempClause = Clause()
                 var = Variable()
@@ -191,7 +190,7 @@ for j in range(1, 10):
                 var2.isNegated = True
                 tempClause.append(var2)
                 allClauses.append(tempClause)
-          
+
 #4
 for k in range(1, 10):
     for a in range(0, 3):
@@ -217,7 +216,7 @@ for k in range(1, 10):
         for b in range(0, 3):
             for u in range(1,3):
                 for v in range(1, 4):
-                    for w in range(v+1, 4):
+                    for w in range(u+1, 4):
                         for t in range(1, 4):
                             tempClause = Clause()
                             var = Variable()
@@ -237,10 +236,11 @@ for k in range(1, 10):
 # A 0, ., *, or ? represents an empty cell.
 # Any other character is ignored.
 # The input file is read from STDIN.
-
+'''
 # Read in the first line of the input file
 line = sys.stdin.readline()
 # While there are still lines to read
+char_count = 0
 while line:
     # For each character in the line
     for i in range(0, len(line)):
@@ -258,19 +258,66 @@ while line:
             allClauses.append(tempClause)
     # Read in the next line of the input file
     line = sys.stdin.readline()
+'''
+charCount = 0
+doneReading = False
+for line in sys.stdin:
+    tempDigList = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
+    tempBlankList = ["0", ".", "*", "?"]
+    tempLine = line.rstrip()
+    #print("stripped: " + tempLine)
+    for j in range (0, len(tempLine)):
+        tempChar = tempLine[j:j+1:1]
+        count = tempDigList.count(tempChar)
+
+        #if the character is not a digit
+        if(count == 0):
+            count = tempBlankList.count(tempChar)
+            #if the character is a blank
+            if(count != 0):
+                charCount = charCount + 1
+                if(charCount==81):
+                    doneReading = True
+                    #print("doneReading is now true")
+            count = 0
+
+        #if the character is a digit
+        if(count != 0):
+            #print("its a digit")
+            #print("the digit is: " + tempChar)
+            charCount = charCount + 1
+
+            digVal = tempDigList.index(tempChar)
+            digVal = digVal + 1
+
+            #create a clause with variable to say that the clause containing only the one value must be true
+            trueClause = Clause()
+            trueVar = Variable()
+
+            trueVar.symbol = [1+((charCount-1)//9), ((charCount - 1)%9)+1, digVal]
+            trueVar.isNegated = False
+
+            trueClause.append(trueVar)
+
+            allClauses.append(trueClause)
+
+            #print("tempclause: " + str(tempClause.vars))
+
+        if(charCount==81):
+            doneReading = True
+            #print("doneReading is now true")
+
+    if(doneReading):
+        break
 
 
 # now change all the encodings to be how the solver probably wants them
-# Print the number of clauses
-print("p cnf 999 " + str(len(allClauses)))
 # Print each clause
+'''
 for clause in allClauses:
     for var in clause.vars:
-        # Print the variable
-        print(str(var.symbol[0]) + str(var.symbol[1]) + str(var.symbol[2]), end = " ")
         minEnc = returnMinEncoding(var.symbol[0], var.symbol[1], var.symbol[2])
         var.symbol = minEnc
-
-
+'''
 # Print the list of clauses to STDOUT in DIMACS format
 printClauses(allClauses)
