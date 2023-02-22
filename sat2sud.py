@@ -14,8 +14,7 @@ class Table:
           value = 2
           if self.table[variable[row]-1][variable[column]-1] == 0:
                self.table[variable[row]-1][variable[column]-1] = variable[value]
-               
-     
+
      
 def main():
      sys.stdin.readline()

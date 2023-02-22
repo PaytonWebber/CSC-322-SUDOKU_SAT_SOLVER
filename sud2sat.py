@@ -155,7 +155,6 @@ for i in range(1, 10):
             L = 0
         allClauses.append(tempClause)
 
-        
 
 #2
 for i in range(1, 10):
@@ -173,6 +172,7 @@ for i in range(1, 10):
                     var2.isNegated = True
                     tempClause.append(var2)
                     allClauses.append(tempClause)
+                    
 
 #3
 for j in range(1, 10):
@@ -190,6 +190,7 @@ for j in range(1, 10):
                 var2.isNegated = True
                 tempClause.append(var2)
                 allClauses.append(tempClause)
+
 
 #4
 for k in range(1, 10):

@@ -1,4 +1,5 @@
 #!/bin/bash
+rm result.txt
 for i in {01..50}; do
     echo "Running test $i"
 
