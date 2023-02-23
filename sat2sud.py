@@ -7,7 +7,7 @@ class Table:
           for index in range(9):
                self.table.append([0,0,0,0,0,0,0,0,0])
 
-     def insert(self, variable: list[int]):
+     def insert(self, variable):
           row = 0
           column = 1
           value = 2
@@ -36,20 +36,20 @@ def main():
                     print(" ", end="")
           print()
           
-def data_parse(line: str) -> list[str]:
+def data_parse(line):
 
      line = line.split()
      line = line[:-1]
      return line
 
-def simplfy_var(data: str) -> list[int]:
+def simplfy_var(data):
      variable = list(data)
      for index, value in enumerate(data):
           variable[index] = int(value)
          
      return variable
 
-def convertbase9(number: int) -> int:
+def convertbase9(number):
      negative = 1
      number -= 1
      #used for encoding, subtract 1 from decimal and then readd it for position
