@@ -314,11 +314,10 @@ for line in sys.stdin:
 
 # now change all the encodings to be how the solver probably wants them
 # Print each clause
-'''
 for clause in allClauses:
     for var in clause.vars:
         minEnc = returnMinEncoding(var.symbol[0], var.symbol[1], var.symbol[2])
         var.symbol = minEnc
-'''
+
 # Print the list of clauses to STDOUT in DIMACS format
 printClauses(allClauses)
