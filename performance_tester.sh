@@ -9,7 +9,7 @@ do
 
     ./sud2sat.py < test_puzzles/test_puzzle_$i.txt > puzzle.cnf
     
-    minisat puzzle.cnf > stat.txt
+    minisat puzzle.cnf assign.txt > stat.txt
 
     ./performance.py stat.txt $i >> performance_minimal.txt
 
