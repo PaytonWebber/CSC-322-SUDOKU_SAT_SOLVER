@@ -1,4 +1,4 @@
-#!/user/bin/env python
+#!/usr/bin/python3
 import sys
 
 class Table:
@@ -65,5 +65,6 @@ def convertbase9(number: int) -> int:
           
      return (int(digits)+ 111)*negative
 
-if __name__ == "__main__":
-     main()
+#if __name__ == "__main__":
+#     main()
+main()

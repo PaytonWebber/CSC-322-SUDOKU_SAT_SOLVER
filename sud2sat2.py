@@ -148,6 +148,7 @@ for k in range(1, 10):
                             tempClause.append(var2)
                             allClauses.append(tempClause)
 
+
 #1 extended, meaning make it so there is at most one number in each cell
 for i in range(1, 10):
     for j in range(1, 10):
@@ -160,7 +161,7 @@ for i in range(1, 10):
                 tempClause.append(var)
                 
                 var2 = Variable()
-                var2.symbol = [L, j, L]
+                var2.symbol = [i, j, L]
                 var2.isNegated = True
                 tempClause.append(var2)
                 allClauses.append(tempClause)
