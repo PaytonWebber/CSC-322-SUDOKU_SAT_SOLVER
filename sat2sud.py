@@ -1,6 +1,5 @@
 #!/user/bin/env python
 import sys
-import os #might need these 2, just incase
 
 class Table:
      def __init__(self):  
@@ -26,6 +25,7 @@ def main():
      third digit is value
      """
      for variable in variable_list:
+          variable = convertbase9(int(variable))
           if int(variable) > 0:
                solution.insert(simplfy_var(str(variable)))
               
@@ -48,7 +48,22 @@ def simplfy_var(data: str) -> list[int]:
           variable[index] = int(value)
          
      return variable
-        
-    
+
+def convertbase9(number: int) -> int:
+     negative = 1
+     number -= 1
+     #used for encoding, subtract 1 from decimal and then readd it for position
+     if number == 0:
+          return 111
+     elif number < 0:
+          negative = -1
+     digits = ""
+     number = abs(number)
+     while number:
+          digits = str(number % 9) + digits
+          number //= 9
+          
+     return (int(digits)+ 111)*negative
+
 if __name__ == "__main__":
      main()
