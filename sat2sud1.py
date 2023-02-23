@@ -3,11 +3,13 @@ import sys
 
 class Table:
      def __init__(self):  
+          #create an empty table
           self.table = []
           for index in range(9):
                self.table.append([0,0,0,0,0,0,0,0,0])
 
      def insert(self, variable):
+          #insert a value into the next available space in the table
           row = 0
           column = 1
           value = 2
@@ -24,20 +26,22 @@ def main():
      second digit is column
      third digit is value
      """
+     #loop through all digits from STDIN and insert them into the table as appropriate
      for variable in variable_list:
           variable = convertbase9(int(variable))
           if int(variable) > 0:
                solution.insert(simplfy_var(str(variable)))
-              
+     
+     #print out the solution
      for i in range(9):
           for j in range(9):
                print(solution.table[i][j], end="")
-               if (j+1)%3 == 0:
+               if (j+1)%3 == 0: #if we have reached the end of a row
                     print(" ", end="")
           print()
-          
-def data_parse(line):
 
+#split a string of numbers into a list
+def data_parse(line):
      line = line.split()
      line = line[:-1]
      return line
@@ -59,12 +63,14 @@ def convertbase9(number):
           negative = -1
      digits = ""
      number = abs(number)
+
+     #convert each digit to its base 9 form
      while number:
           digits = str(number % 9) + digits
           number //= 9
           
+     #convert the number back to an int, shift each digit up so it doesn't contain 0's, then return
      return (int(digits)+ 111)*negative
 
-#if __name__ == "__main__":
-#     main()
-main()
+if __name__ == "__main__":
+     main()

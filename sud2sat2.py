@@ -60,7 +60,7 @@ def printClauses(clauses):
 allClauses = []
 
 ##Now I will go generate the clauses
-#1
+#1 ensure every cell contains at least one number
 for i in range(1, 10):
     for j in range(1, 10):
         tempClause = Clause()
@@ -73,7 +73,7 @@ for i in range(1, 10):
         allClauses.append(tempClause)
 
 
-#2
+#2 ensure every number appears at most once in every row
 for i in range(1, 10):
     for k in range(1, 10):
             for j in range(1, 9):
@@ -91,7 +91,7 @@ for i in range(1, 10):
                     allClauses.append(tempClause)
                     
 
-#3
+#3 ensure every number appears at most once in every column
 for j in range(1, 10):
     for k in range(1, 10):
         for i in range(1, 9):
@@ -109,7 +109,7 @@ for j in range(1, 10):
                 allClauses.append(tempClause)
 
 
-#4
+#4 perform the first part of ensuring that each number appears at most once in every subgrid
 for k in range(1, 10):
     for a in range(0, 3):
         for b in range(0, 3):
@@ -128,7 +128,7 @@ for k in range(1, 10):
                         tempClause.append(var2)
                         allClauses.append(tempClause)
 
-#5
+#5 perform the second part of ensuring that each number appears at most once in every subgrid
 for k in range(1, 10):
     for a in range(0, 3):
         for b in range(0, 3):
@@ -195,8 +195,6 @@ for line in sys.stdin:
 
         #if the character is a digit
         if(count != 0):
-            #print("its a digit")
-            #print("the digit is: " + tempChar)
             charCount = charCount + 1
 
             digVal = tempDigList.index(tempChar)
