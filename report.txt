@@ -4,4 +4,65 @@ We completed extended tasks 2 and 3, but not extended task 1. You must read the 
 to be able to run the code since we submitted our code as python scripts not linux executables.
 
 When we tested the basic task, we got the following results:
-Howie please put in the average case and worst case stats for all 3 versions of the code
+Below you can find the average and worst case stats for the performance of the code
+
+regular version:
+the maximum number of decisions needed was: 522
+the maximum number of propagations needed was: 702
+the maximum number of megabytes of memory used was: 11.0
+the maximum amount of cpu time used (in seconds) was: 0.004241
+the maximum number of conflicts was: 0
+the maximum number of conflictLiterals was: 0
+
+the ave number of decisions needed was: 517.04
+the ave number of propagations needed was: 697.12
+the ave number of megabytes of memory used was: 11.0
+the ave amount of cpu time used (in seconds) was: 0.0033466999999999993
+the ave amount of conflicts was: 0.0
+the ave amount of conflictLiterals was: 0.0
+
+
+extended task 2:
+the maximum number of decisions needed was: 154
+the maximum number of propagations needed was: 4765
+the maximum number of megabytes of memory used was: 11.0
+the maximum amount of cpu time used (in seconds) was: 0.007908
+the maximum number of conflicts was: 108
+the maximum number of conflictLiterals was: 759
+
+the ave number of decisions needed was: 15.28
+the ave number of propagations needed was: 950.16
+the ave number of megabytes of memory used was: 11.0
+the ave amount of cpu time used (in seconds) was: 0.0062388600000000015
+the ave amount of conflicts was: 7.24
+the ave amount of conflictLiterals was: 45.88
+
+extended task 3:
+the maximum number of decisions needed was: 6
+the maximum number of propagations needed was: 936
+the maximum number of megabytes of memory used was: 11.0
+the maximum amount of cpu time used (in seconds) was: 0.00848
+the maximum number of conflicts was: 3
+the maximum number of conflictLiterals was: 8
+
+the ave number of decisions needed was: 1.5
+the ave number of propagations needed was: 740.96
+the ave number of megabytes of memory used was: 11.0
+the ave amount of cpu time used (in seconds) was: 0.00606306
+the ave amount of conflicts was: 0.26
+the ave amount of conflictLiterals was: 0.52
+
+so it appears that the minimal encoding was faster than the extended 
+encoding in terms of cpu time in both worst and ave cases, which makes sense.
+
+however it also appears that the minimal encoding was faster than the 
+efficient encoding in terms of cpu time in both worst and ave cases,
+which makes less sense. I suspect that this is just because the number of operations
+that the cpu performs per second is not always constant. I believe this because
+the efficient encoding needed fewer decisions than the minimal one.
+
+It also appears that the efficient encoding was faster than the extended one
+in the worst case, but then slightly slower in the average case. The faster
+in worst case fact makes sense, but the average cases being similar surprised me.
+I suspect that the reason for this is again just that cpus don't always perform the
+same number of operations/second due to heat and other factors.
