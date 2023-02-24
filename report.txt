@@ -3,4 +3,5 @@ as it is all either described in the assignment itself, or in the README.md file
 We completed extended tasks 2 and 3, but not extended task 1. You must read the Readme.md
 to be able to run the code since we submitted our code as python scripts not linux executables.
 
-When we tested the basic task, we got the following results
+When we tested the basic task, we got the following results:
+Howie please put in the average case and worst case stats for all 3 versions of the code

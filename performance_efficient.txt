@@ -1,0 +1,639 @@
+*********************************** Test 01 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+conflicts             : 0              (0 /sec)
+decisions             : 1              (0.00 % random) (140 /sec)
+propagations          : 729            (102187 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.007134 s
+
+SATISFIABLE
+
+*********************************** Test 02 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 7              (2857 /sec)
+decisions             : 19             (0.00 % random) (7755 /sec)
+propagations          : 841            (343265 /sec)
+conflict literals     : 27             (6.90 % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.00245 s
+
+SATISFIABLE
+
+*********************************** Test 03 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 14             (1941 /sec)
+decisions             : 23             (0.00 % random) (3188 /sec)
+propagations          : 1145           (158719 /sec)
+conflict literals     : 71             (11.25 % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.007214 s
+
+SATISFIABLE
+
+*********************************** Test 04 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 2              (278 /sec)
+decisions             : 3              (0.00 % random) (418 /sec)
+propagations          : 706            (98301 /sec)
+conflict literals     : 2              (0.00 % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.007182 s
+
+SATISFIABLE
+
+*********************************** Test 05 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+conflicts             : 0              (0 /sec)
+decisions             : 1              (0.00 % random) (151 /sec)
+propagations          : 729            (110204 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.006615 s
+
+SATISFIABLE
+
+*********************************** Test 06 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 17             (2262 /sec)
+decisions             : 34             (0.00 % random) (4525 /sec)
+propagations          : 1385           (184323 /sec)
+conflict literals     : 159            (13.11 % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.007514 s
+
+SATISFIABLE
+
+*********************************** Test 07 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 5              (698 /sec)
+decisions             : 14             (0.00 % random) (1955 /sec)
+propagations          : 793            (110754 /sec)
+conflict literals     : 21             (19.23 % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.00716 s
+
+SATISFIABLE
+
+*********************************** Test 08 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+conflicts             : 0              (0 /sec)
+decisions             : 1              (0.00 % random) (145 /sec)
+propagations          : 729            (105929 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.006882 s
+
+SATISFIABLE
+
+*********************************** Test 09 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 11             (1505 /sec)
+decisions             : 21             (0.00 % random) (2874 /sec)
+propagations          : 962            (131637 /sec)
+conflict literals     : 37             (2.63 % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.007308 s
+
+SATISFIABLE
+
+*********************************** Test 10 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 6              (849 /sec)
+decisions             : 13             (0.00 % random) (1840 /sec)
+propagations          : 865            (122452 /sec)
+conflict literals     : 43             (2.27 % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.007064 s
+
+SATISFIABLE
+
+*********************************** Test 11 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 5              (702 /sec)
+decisions             : 14             (0.00 % random) (1967 /sec)
+propagations          : 790            (110971 /sec)
+conflict literals     : 15             (6.25 % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.007119 s
+
+SATISFIABLE
+
+*********************************** Test 12 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+conflicts             : 0              (0 /sec)
+decisions             : 1              (0.00 % random) (805 /sec)
+propagations          : 729            (586484 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.001243 s
+
+SATISFIABLE
+
+*********************************** Test 13 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 1              (146 /sec)
+decisions             : 3              (0.00 % random) (438 /sec)
+propagations          : 697            (101707 /sec)
+conflict literals     : 1              (0.00 % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.006853 s
+
+SATISFIABLE
+
+*********************************** Test 14 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 1              (140 /sec)
+decisions             : 8              (0.00 % random) (1119 /sec)
+propagations          : 674            (94305 /sec)
+conflict literals     : 6              (0.00 % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.007147 s
+
+SATISFIABLE
+
+*********************************** Test 15 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 1              (0.00 % random) (209 /sec)
+propagations          : 685            (143425 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.004776 s
+
+SATISFIABLE
+
+*********************************** Test 16 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+conflicts             : 0              (0 /sec)
+decisions             : 1              (0.00 % random) (175 /sec)
+propagations          : 729            (127671 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.00571 s
+
+SATISFIABLE
+
+*********************************** Test 17 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+conflicts             : 0              (-nan /sec)
+decisions             : 1              (0.00 % random) (inf /sec)
+propagations          : 729            (inf /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0 s
+
+SATISFIABLE
+
+*********************************** Test 18 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 5              (653 /sec)
+decisions             : 16             (0.00 % random) (2089 /sec)
+propagations          : 835            (109036 /sec)
+conflict literals     : 14             (0.00 % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.007658 s
+
+SATISFIABLE
+
+*********************************** Test 19 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+conflicts             : 0              (0 /sec)
+decisions             : 1              (0.00 % random) (186 /sec)
+propagations          : 729            (135906 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.005364 s
+
+SATISFIABLE
+
+*********************************** Test 20 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+conflicts             : 0              (0 /sec)
+decisions             : 1              (0.00 % random) (139 /sec)
+propagations          : 729            (101391 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.00719 s
+
+SATISFIABLE
+
+*********************************** Test 21 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 2              (263 /sec)
+decisions             : 9              (0.00 % random) (1184 /sec)
+propagations          : 713            (93779 /sec)
+conflict literals     : 2              (0.00 % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.007603 s
+
+SATISFIABLE
+
+*********************************** Test 22 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 2              (285 /sec)
+decisions             : 9              (0.00 % random) (1282 /sec)
+propagations          : 735            (104671 /sec)
+conflict literals     : 3              (0.00 % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.007022 s
+
+SATISFIABLE
+
+*********************************** Test 23 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 1              (142 /sec)
+decisions             : 2              (0.00 % random) (284 /sec)
+propagations          : 706            (100412 /sec)
+conflict literals     : 1              (0.00 % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.007031 s
+
+SATISFIABLE
+
+*********************************** Test 24 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 2              (289 /sec)
+decisions             : 10             (0.00 % random) (1445 /sec)
+propagations          : 721            (104161 /sec)
+conflict literals     : 4              (20.00 % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.006922 s
+
+SATISFIABLE
+
+*********************************** Test 25 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 7              (975 /sec)
+decisions             : 20             (0.00 % random) (2785 /sec)
+propagations          : 920            (128098 /sec)
+conflict literals     : 12             (7.69 % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.007182 s
+
+SATISFIABLE
+
+*********************************** Test 26 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 26             (3438 /sec)
+decisions             : 37             (0.00 % random) (4893 /sec)
+propagations          : 1517           (200608 /sec)
+conflict literals     : 135            (11.18 % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.007562 s
+
+SATISFIABLE
+
+*********************************** Test 27 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 2              (560 /sec)
+decisions             : 3              (0.00 % random) (840 /sec)
+propagations          : 759            (212605 /sec)
+conflict literals     : 2              (0.00 % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.00357 s
+
+SATISFIABLE
+
+*********************************** Test 28 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 2              (279 /sec)
+decisions             : 10             (0.00 % random) (1394 /sec)
+propagations          : 737            (102746 /sec)
+conflict literals     : 2              (0.00 % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.007173 s
+
+SATISFIABLE
+
+*********************************** Test 29 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 3              (829 /sec)
+decisions             : 17             (0.00 % random) (4700 /sec)
+propagations          : 764            (211225 /sec)
+conflict literals     : 7              (0.00 % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003617 s
+
+SATISFIABLE
+
+*********************************** Test 30 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 6              (854 /sec)
+decisions             : 14             (0.00 % random) (1993 /sec)
+propagations          : 875            (124591 /sec)
+conflict literals     : 27             (0.00 % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.007023 s
+
+SATISFIABLE
+
+*********************************** Test 31 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 5              (687 /sec)
+decisions             : 29             (0.00 % random) (3985 /sec)
+propagations          : 844            (115982 /sec)
+conflict literals     : 15             (16.67 % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.007277 s
+
+SATISFIABLE
+
+*********************************** Test 32 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 8              (0.00 % random) (1129 /sec)
+propagations          : 669            (94438 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.007084 s
+
+SATISFIABLE
+
+*********************************** Test 33 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 2              (0.00 % random) (286 /sec)
+propagations          : 675            (96497 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.006995 s
+
+SATISFIABLE
+
+*********************************** Test 34 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+conflicts             : 0              (0 /sec)
+decisions             : 1              (0.00 % random) (150 /sec)
+propagations          : 729            (109377 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.006665 s
+
+SATISFIABLE
+
+*********************************** Test 35 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 5              (0.00 % random) (1647 /sec)
+propagations          : 665            (219110 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003035 s
+
+SATISFIABLE
+
+*********************************** Test 36 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+conflicts             : 0              (0 /sec)
+decisions             : 1              (0.00 % random) (154 /sec)
+propagations          : 729            (111964 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.006511 s
+
+SATISFIABLE
+
+*********************************** Test 37 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 1              (331 /sec)
+decisions             : 4              (0.00 % random) (1326 /sec)
+propagations          : 683            (226384 /sec)
+conflict literals     : 1              (0.00 % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003017 s
+
+SATISFIABLE
+
+*********************************** Test 38 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+conflicts             : 0              (0 /sec)
+decisions             : 1              (0.00 % random) (159 /sec)
+propagations          : 729            (115935 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.006288 s
+
+SATISFIABLE
+
+*********************************** Test 39 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 1              (0.00 % random) (156 /sec)
+propagations          : 697            (108872 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.006402 s
+
+SATISFIABLE
+
+*********************************** Test 40 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+conflicts             : 0              (0 /sec)
+decisions             : 1              (0.00 % random) (147 /sec)
+propagations          : 729            (106954 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.006816 s
+
+SATISFIABLE
+
+*********************************** Test 41 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 11             (1540 /sec)
+decisions             : 21             (0.00 % random) (2940 /sec)
+propagations          : 962            (134696 /sec)
+conflict literals     : 37             (2.63 % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.007142 s
+
+SATISFIABLE
+
+*********************************** Test 42 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 11             (0.00 % random) (1498 /sec)
+propagations          : 665            (90587 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.007341 s
+
+SATISFIABLE
+
+*********************************** Test 43 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 12             (1705 /sec)
+decisions             : 22             (0.00 % random) (3125 /sec)
+propagations          : 1031           (146470 /sec)
+conflict literals     : 36             (14.29 % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.007039 s
+
+SATISFIABLE
+
+*********************************** Test 44 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 27             (3580 /sec)
+decisions             : 39             (0.00 % random) (5171 /sec)
+propagations          : 1812           (240255 /sec)
+conflict literals     : 180            (9.55 % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.007542 s
+
+SATISFIABLE
+
+*********************************** Test 45 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 6              (1873 /sec)
+decisions             : 16             (0.00 % random) (4995 /sec)
+propagations          : 890            (277865 /sec)
+conflict literals     : 52             (0.00 % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.003203 s
+
+SATISFIABLE
+
+*********************************** Test 46 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 1              (131 /sec)
+decisions             : 10             (0.00 % random) (1310 /sec)
+propagations          : 704            (92207 /sec)
+conflict literals     : 6              (0.00 % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.007635 s
+
+SATISFIABLE
+
+*********************************** Test 47 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+===============================================================================
+restarts              : 2
+conflicts             : 108            (13657 /sec)
+decisions             : 154            (0.00 % random) (19474 /sec)
+propagations          : 4765           (602554 /sec)
+conflict literals     : 759            (19.94 % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.007908 s
+
+SATISFIABLE
+
+*********************************** Test 48 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 13             (2656 /sec)
+decisions             : 51             (0.00 % random) (10419 /sec)
+propagations          : 1080           (220633 /sec)
+conflict literals     : 119            (11.19 % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.004895 s
+
+SATISFIABLE
+
+*********************************** Test 49 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 43             (5702 /sec)
+decisions             : 61             (0.00 % random) (8089 /sec)
+propagations          : 2947           (390797 /sec)
+conflict literals     : 469            (12.01 % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.007541 s
+
+SATISFIABLE
+
+*********************************** Test 50 ***********************************
+|  Number of variables:           729                                         |
+|  Number of clauses:           11745                                         |
+restarts              : 1
+conflicts             : 8              (1093 /sec)
+decisions             : 18             (0.00 % random) (2459 /sec)
+propagations          : 846            (115590 /sec)
+conflict literals     : 29             (3.33 % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.007319 s
+
+SATISFIABLE
+

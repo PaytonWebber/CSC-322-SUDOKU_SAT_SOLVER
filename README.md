@@ -2,7 +2,8 @@
 
 Names:
 Cole Alexander Piche, V00954002
-
+Howie please put your full name student number here
+Payton please put your full name and student number here
 
 This submission is a tar file that contains sat2sud.py sat2sud2.py, sat2sud3.py, sud2sat.py, sud2sat2.py, and sud2sat3.py. The code does not produce linux executables. To run them, just have your input in a file (we will assume it is called puzzle.txt for this example) and choose one pair of files to test (we will assume you chose sud2sat.py and sat2sud.py for the example) and run the following commands:
 

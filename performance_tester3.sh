@@ -1,0 +1,19 @@
+#!/usr/bin/bash
+# Testing harness for the solver
+# Usage: test_solver.sh
+
+# Tests 50 puzzles
+for i in {01..50}
+do
+    echo "Testing puzzle $i"
+
+    ./sud2sat3.py < test_puzzles/test_puzzle_$i.txt > puzzle.cnf
+    
+    minisat puzzle.cnf assign.txt > stat.txt
+
+    ./performance.py stat.txt $i >> performance_extended.txt
+
+done
+
+rm puzzle.cnf
+rm stat.txt
