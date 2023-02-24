@@ -1,5 +1,17 @@
 There is nothing that really needs to be explained about the implementation here,
 as it is all either described in the assignment itself, or in the README.md file.
+The implementation essentially just builds up the list of rules given in the slides
+for the basic task, then adds a one variable clause for each variable representing 
+a digit in the input to ensure the input is satisfied. 
+
+for extended task 2 we added a loop to generate clauses to implement the rule that 
+each cell should contain at most one number.
+
+for extended task 3 we added that same loop as for task 2, as well as two more loops
+to ensure that each number appears at least once in each row and column, and then another
+loop to ensure that each number appears at least once in each subgrid.
+
+
 We completed extended tasks 2 and 3, but not extended task 1. You must read the Readme.md
 to be able to run the code since we submitted our code as python scripts not linux executables.
 
