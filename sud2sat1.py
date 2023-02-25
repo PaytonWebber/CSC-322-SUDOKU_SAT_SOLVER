@@ -1,4 +1,4 @@
-#!/usr//bin/python3
+#!/usr/bin/python3
 import sys
 
 # This program takes in a file that contains one or more unsolved, 9x9 sudoku puzzles.
@@ -59,7 +59,7 @@ def printClauses(clauses):
 # Create an empty list of clauses
 allClauses = []
 
-# Now I will go generate the clauses
+##Now I will go generate the clauses
 #1 ensure every cell contains at least one number
 for i in range(1, 10):
     for j in range(1, 10):
@@ -71,6 +71,7 @@ for i in range(1, 10):
             tempClause.append(var)
             L = 0
         allClauses.append(tempClause)
+
 
 #2 ensure every number appears at most once in every row
 for i in range(1, 10):
@@ -89,6 +90,7 @@ for i in range(1, 10):
                     tempClause.append(var2)
                     allClauses.append(tempClause)
                     
+
 #3 ensure every number appears at most once in every column
 for j in range(1, 10):
     for k in range(1, 10):
@@ -105,6 +107,7 @@ for j in range(1, 10):
                 var2.isNegated = True
                 tempClause.append(var2)
                 allClauses.append(tempClause)
+
 
 #4 perform the first part of ensuring that each number appears at most once in every subgrid
 for k in range(1, 10):
@@ -152,22 +155,28 @@ for k in range(1, 10):
 # The input file is read from STDIN.
 charCount = 0
 for line in sys.stdin:
-    line.rstrip()
-    for char in line:
+    for char in line.strip():
         charCount += 1
         # Exits loop if all 81 positons on the puzzle have been determined
         if charCount >= 81: break
         # Checks if current character is an empty cell
         if not char.isdigit() or int(char) == 0: continue
 
+        # Get the row number of the current cell
+        if charCount%9 == 0: i = charCount // 9
+        else: i = (charCount // 9) + 1
+
+        # Get the column number of the current cell
+        j = charCount % 9
+        if j == 0: j = 9
+
         tempClause = Clause()
         tempVar = Variable()
-        tempVar.symbol = [1+((charCount-1)//9), ((charCount - 1)%9)+1, int(char)]
+        tempVar.symbol = [i, j, int(char)]
         tempVar.isNegated = False
         tempClause.append(tempVar)
         allClauses.append(tempClause)
 
-        # Exits loop if all 81 positons on the puzzle have been determined
 # now change all the encodings to be how the solver probably wants them
 # Print each clause
 for clause in allClauses:
