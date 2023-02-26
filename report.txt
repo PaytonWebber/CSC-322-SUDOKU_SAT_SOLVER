@@ -33,6 +33,20 @@ the ave amount of cpu time used (in seconds) was: 0.0033466999999999993
 the ave amount of conflicts was: 0.0
 the ave amount of conflictLiterals was: 0.0
 
+extended task 1:
+the maximum number of decisions needed was: 6
+the maximum number of propagations needed was: 936
+the maximum number of megabytes of memory used was: 11.0
+the maximum amount of cpu time used (in seconds) was: 0.00848
+the maximum number of conflicts was: 3
+the maximum number of conflictLiterals was: 8
+
+the ave number of decisions needed was: 1.5
+the ave number of propagations needed was: 740.96
+the ave number of megabytes of memory used was: 11.0
+the ave amount of cpu time used (in seconds) was: 0.00606306
+the ave amount of conflicts was: 0.26
+the ave amount of conflictLiterals was: 0.52
 
 extended task 2:
 the maximum number of decisions needed was: 154
